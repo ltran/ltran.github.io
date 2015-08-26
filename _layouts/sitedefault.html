@@ -1,19 +1,20 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html>
 
-<!doctype html>
-<html class="mmmm-tasty-html">
+  {% include sitehead.html %}
 
-    {% include head.html %}
+  <body>
 
-    <body class="{{ site.title | downcase | replace:' ','-' }}">
+    {% include siteheader.html %}
 
-        {% include siteheader.html %}
-
+    <div class="page-content">
+      <div class="wrapper">
         {{ content }}
+      </div>
+    </div>
 
-        {% include footer.html %}
+    {% include sitefooter.html %}
 
-    </body>
+  </body>
+
 </html>
