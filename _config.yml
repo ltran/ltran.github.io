@@ -1,5 +1,5 @@
 # Site settings
-title: Louis Tran - Articles I find interesting
+title: Louis Tran
 author:
   address:
     town: San Francisco
@@ -11,9 +11,9 @@ author:
   github_username:  ltran
   # phone: +44 000 000 0000
   # repository: https://github.com/nternetinspired/jekyll-resume
-  website: http://louistran.codes
+  # website: http://louistran.codes
 description: > # this means to ignore newlines until "baseurl:"
-  Louis' online portfolio. Powered by Jekyll, and Github Pages ready. Jekyll Theme by @nternetinspired.
+  Louis' resume. Powered by Jekyll, and Github Pages ready. Jekyll Theme by @nternetinspired.
 baseurl: "/resume" # the subpath of your site, e.g. /blog/
 url: "http://ltran.github.io" # the base hostname & protocol for your site
 
